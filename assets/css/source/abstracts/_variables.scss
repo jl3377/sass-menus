@@ -13,7 +13,7 @@ $font-weight-bolder: bolder !default;
 $font-default: 'Open Sans', sans-serif;
 
 // colors
-$color-default: rgb(0, 0, 0);
+$color-default: hsl(0, 0%, 0%);
 $color-links: hsl(44, 146%, 141%);
 
 // space
@@ -32,4 +32,4 @@ $headings-margin-bottom:      $spacer / 2 !default;
 $headings-font-family:        null !default;
 $headings-font-weight:        500 !default;
 $headings-line-height:        1.2 !default;
-$headings-color:              rgb(0, 0, 0) !default;
+$headings-color:              hsl(0, 0%, 0%) !default;

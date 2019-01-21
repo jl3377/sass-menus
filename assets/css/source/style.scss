@@ -1,23 +1,25 @@
 @charset 'utf-8';
 
-// variables
-@import 'helpers/variables';
+// Configuration and helpers
+@import 'abstracts/variables';
+@import 'abstracts/media-queries';
 
-// mixins
-@import 'mixins/media-queries';
+// vendors 
+@import 'vendor/bootstrap/reboot';
+@import 'vendor/bootstrap/grid';
 
-// bootstrap reboot
-@import 'base/reboot';
-
-// configuration
+// Base stuff
 @import 'base/fonts';
-@import 'base/headings';
 
-// import layout
+// Components
+@import 'components/headings';
+
+// layout
 //@import 'layout/nav';
 @import 'layout/sideNav';
 @import 'layout/header'; 
 @import 'layout/content';
 @import 'layout/footer';
 
-// import pages
+// pages
+@import 'pages/home';
