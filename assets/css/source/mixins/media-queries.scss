@@ -1,0 +1,53 @@
+// ****************************************************************************
+// * MEDIA QUERIES CSS
+// ****************************************************************************
+// * MOBILE S - 320px
+// * MOBILE M - 375px
+// * MOBILE L - 425px
+// * TABLET - 768px
+// * LAPTOP - 1024px
+// * LAPTOP L - 1440px 
+// ****************************************************************************
+
+$responsive-width: 768px;
+$mobile-width: 375px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@mixin media-query($media) {
+    // VERSION PARA MOVILES HASTA 375px
+    @if $media == mobile {
+        @media only screen and (max-width: $mobile-width) {
+            @content;
+        }
+    // IGUAL QUE RESPONSIVE    
+    } @else if $media == tablet {
+        @media only screen and (min-width: $mobile-width+1) and (max-width: $tablet-width) {
+            @content;
+        }
+    // VERSION PARA PC Y TABLETS DESDE 1024px
+    } @else if $media == desktop {
+        @media only screen and (min-width: $tablet-width+1) {
+            @content;
+        }
+    // VERSION PARA MOBILES HASTA 768px
+    } @else if $media == responsive {         
+        @media only screen and (max-width: $responsive-width) {
+            @content;
+        }
+    }
+}
+
+// paddings
+@mixin padding($values...) { 
+    @each $value in $values {
+        padding: #{$value};
+    }
+}
+
+// margins
+@mixin margin($values...) { 
+    @each $value in $values {
+        margin: #{$value};
+    }
+}

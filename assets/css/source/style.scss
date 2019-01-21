@@ -1,0 +1,23 @@
+@charset 'utf-8';
+
+// variables
+@import 'helpers/variables';
+
+// mixins
+@import 'mixins/media-queries';
+
+// bootstrap reboot
+@import 'base/reboot';
+
+// configuration
+@import 'base/fonts';
+@import 'base/headings';
+
+// import layout
+//@import 'layout/nav';
+@import 'layout/sideNav';
+@import 'layout/header'; 
+@import 'layout/content';
+@import 'layout/footer';
+
+// import pages

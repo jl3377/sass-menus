@@ -1,0 +1,93 @@
+/*------------------------------------------------*\
+ # NAVIGATION BAR
+\*------------------------------------------------*/
+.topNav {
+
+    position: fixed;
+    width:100%;
+    background: rgb(40, 40, 41);
+    z-index: 1;
+    height: 75px;
+
+    #headerIcon {
+        padding: 10px;
+        position: absolute;
+        color: #fff!important;
+        z-index: 10;
+        right: 10px;
+        top: 10px;
+        cursor: pointer;
+        display: none;
+        @include media-query(responsive) {
+            display: block;
+        }
+    }    
+    #headerLogo {
+        
+        color: #fff;
+        width: 100px;
+        text-align: center;
+        float:left;
+        padding:  8px 10px 0 10px;
+        margin-right:25px;
+        img {
+            max-height: 60px;
+        }
+        @include media-query(responsive){
+            float:left    
+        }
+    }
+    // remove margin/paddings container bootstrap
+    .container {
+        @include media-query(responsive) {
+            padding: 0;
+            margin: 0;
+        }        
+    }
+
+    // menu list items
+    ul {        
+        display: inherit;
+        padding: 0;
+        list-style: none;
+        height: auto;
+        overflow: hidden;
+        border-top: solid rgb(73, 75, 75) 1px;
+        
+        li {
+
+            float: left;
+            text-align: center;
+            padding: 23px 15px 23px 15px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            position: relative;
+
+            @include media-query(responsive){
+                padding: 10px 20px;
+                float: none;            
+                text-align: left;        
+                background:rgb(51, 56, 56);        
+                &:hover {
+                    background: rgb(0, 0, 0)!important;
+                }   
+            }
+
+            a {
+                color: rgb(182, 182, 182);    
+                display: flex;            
+                &:hover {
+                    text-decoration: none;
+                }
+            }     
+            &:hover {
+                background: rgb(0, 73, 107);                
+            } 
+        }     
+        
+        @include media-query(responsive) {
+            display: none; 
+            clear: both;           
+        }    
+    }
+}
