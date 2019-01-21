@@ -4,8 +4,13 @@ Description: Sass Development Resources
 
 # DEVELOPMENT
 
-* Responsive Navigation Top Menu 
-Version 1.0
-
-* Responsive Navigation Side Menu 
-Version 1.0
+<ul>
+    <li>
+    <strong>Responsive Navigation Top Menu</strong><br />
+    Version 1.0
+    </li>
+    <li>
+    <strong>Responsive Navigation Side Menu </strong><br />
+    Version 1.0
+    </li>
+</ul>    
