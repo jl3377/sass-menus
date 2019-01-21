@@ -1,9 +1,8 @@
-# PROJECTS MADE WITH SASS
-Author: José Luis Rojo Sánchez
-Description: Sass Development Resources
+# SASS PROJECTS
+Author: <strong>José Luis Rojo Sánchez</strong><br />
+Description:<strong> Sass Development Resources</strong>
 
 # DEVELOPMENT
-
 <ul>
     <li>
     <strong>Responsive Navigation Top Menu</strong><br />
