@@ -408,7 +408,7 @@ h6, .h6 {
     position: absolute;
     top: 15px;
     right: 15px;
-    color: #b6b6b6;
+    color: #b5b5b5;
   }
 }
 
@@ -475,7 +475,7 @@ h6, .h6 {
 }
 
 .sideNav ul li a {
-  color: #b6b6b6;
+  color: #b5b5b5;
 }
 
 .sideNav ul li a:hover {
@@ -550,13 +550,13 @@ h6, .h6 {
 }
 
 .sideNav ul ul li a {
-  color: #b6b6b6;
+  color: #b5b5b5;
   line-height: 120%;
 }
 
 @media only screen and (max-width: 768px) {
   .sideNav ul ul li a {
-    color: #85a6e4;
+    color: #86a7e4;
   }
 }
 
@@ -590,7 +590,7 @@ h6, .h6 {
 }
 
 .sideNav #social li.sozialize {
-  color: #cec8c8;
+  color: #cfc9c9;
 }
 
 .sideNav #social li.sozialize:hover {
@@ -614,7 +614,7 @@ h6, .h6 {
 @media only screen and (max-width: 768px) {
   #main #responsiveTopMenu #iconOpen {
     display: initial;
-    color: #b6b6b6;
+    color: #b5b5b5;
   }
 }
 

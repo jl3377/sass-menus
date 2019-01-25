@@ -8,7 +8,7 @@
 
     position: fixed;
     width:100%;
-    background: rgb(40, 40, 41);
+    background: hsl(240, 1%, 16%);
     z-index: 1;
     height: 75px;
 
@@ -21,7 +21,7 @@
         z-index: 1;
         top: 0;
         left: 0;
-        background: rgb(0,0,0);
+        background: hsl(0, 0%, 0%);
         padding: 60px 0 0 0;
         transition: 0.5s;
     }
@@ -37,7 +37,7 @@
             position: absolute;
             top: 15px;
             right: 15px;       
-            color: rgb(182, 182, 182);     
+            color: hsl(0, 0%, 71%);     
         }
     }
     
@@ -67,7 +67,7 @@
         padding: 0;
         list-style: none;
         height: auto;        
-        border-top: solid rgb(73, 75, 75) 1px;        
+        border-top: solid hsl(180, 1%, 29%) 1px;        
 
         @include media-query(responsive) {
             margin-top: 10px;
@@ -87,7 +87,7 @@
                 padding: 8px 8px 8px 15px;
                 text-decoration:none;
                 font-size: 1rem;
-                color: rgb(0,0,0);
+                color: hsl(0, 0%, 0%);
                 display: block;
                 transition: 0.3s;
                 float: left;
@@ -96,15 +96,15 @@
             }        
 
             a {
-                color: rgb(182, 182, 182);    
+                color: hsl(0, 0%, 71%);    
                       
                 &:hover {
                     text-decoration: none;
                 }
             }     
             &:hover {
-                color: rgb(0,0,0);
-                background: rgb(82, 82, 82);     
+                color: hsl(0, 0%, 0%);
+                background: hsl(0, 0%, 32%);     
                 
                 @include media-query(responsive){
                     background: transparent;
@@ -127,7 +127,7 @@
                     margin:0 0.5em;
                     display:inline-block;
                     border: 7px solid transparent;
-                    border-top:8px solid gray;
+                    border-top:8px solid hsl(0, 0%, 50%);
                     border-bottom:0 none;
                 }
             }
@@ -156,7 +156,7 @@
                 float: none;
                 display: inline-block;
                 width: 100%;
-                background: rgb(40, 40, 41);
+                background: hsl(240, 1%, 16%);
                 text-align: left;
                 cursor: pointer;
 
@@ -166,11 +166,11 @@
                 }
                 
                 a {
-                    color: rgb(182, 182, 182);    
+                    color: hsl(0, 0%, 71%);    
                     line-height: 120%;                                        
 
                     @include media-query(responsive) {
-                        color: rgb(133, 166, 228);
+                        color: hsl(219, 64%, 71%);
                     }
                 }
             }            
@@ -204,7 +204,7 @@
             }
         }
         li.sozialize {
-            color: rgb(206, 200, 200);
+            color: hsl(0, 6%, 80%);
             &:hover {
                 background:transparent;
             }
@@ -228,7 +228,7 @@
             // Show only in responsive mode    
             @include media-query(responsive) {
                 display: initial;
-                color: rgb(182, 182, 182);
+                color: hsl(0, 0%, 71%);
             }
         }
 
@@ -236,7 +236,7 @@
 
             display: initial;
             position: fixed;
-            background: rgb(0,0,0);
+            background: hsl(0, 0%, 0%);
             width: 100%;            
             z-index: 111111;      
             height: 80px;  
