@@ -1,15 +1,19 @@
 # Responsive Side Menu
 
-Version 1.2
+## [1.0.2] - 2019-01-25
 -----------------
-added search input
-responsive design on tablets with orientation portrait
+### Added
+- added search input
+### Changed
+- responsive design on tablets with orientation portrait
 
-Version 1.1
+## [1.0.2] - 2019-01-22
 -----------------
-added new social menu
+### Added
+- added new social menu
 
-Version 1.0
+## [1.0.2] - 2019-01-19
 -----------------
-Desktop and Responsive Menu
-Multilevel dropdown Menu
+### Added
+- Desktop and Responsive Menu
+- Multilevel dropdown Menu
