@@ -1,53 +1,72 @@
-// ****************************************************************************
-// * MEDIA QUERIES CSS
-// ****************************************************************************
-// * MOBILE S - 320px
-// * MOBILE M - 375px
-// * MOBILE L - 425px
-// * TABLET - 768px
-// * LAPTOP - 1024px
-// * LAPTOP L - 1440px 
-// ****************************************************************************
+/*
+* MEDIA QUERIES CSS
+*/
 
-$responsive-width: 768px;
+/*$responsive-width: 1024px; 
 $mobile-width: 375px;
-$tablet-width: 768px;
-$desktop-width: 1024px;
+$desktop-width: 1024px;*/
 
-@mixin media-query($media) {
-    // VERSION PARA MOVILES HASTA 375px
+/*
+* breakpoints
+*/
+$xs: 576px;
+$sm: 768px;
+$md: 992px;
+$lg: 1200px;
+
+@mixin media-query($media, $orientation: false) {
+
+    /*
+     * Mobiles 
+     * Size: until 576px
+     */
     @if $media == mobile {
-        @media only screen and (max-width: $mobile-width) {
+        @media(max-width: $xs) {
             @content;
         }
-    // IGUAL QUE RESPONSIVE    
-    } @else if $media == tablet {
-        @media only screen and (min-width: $mobile-width+1) and (max-width: $tablet-width) {
-            @content;
-        }
-    // VERSION PARA PC Y TABLETS DESDE 1024px
+
+    /* 
+     * Desktop Pc's 
+     * Size: past 992px
+     */ 
+
     } @else if $media == desktop {
-        @media only screen and (min-width: $tablet-width+1) {
+        @media (min-width: $md+1) { // 
             @content;
         }
-    // VERSION PARA MOBILES HASTA 768px
+
+    /* 
+     * Responsive screens       
+     * Size: until 992px
+     */
     } @else if $media == responsive {         
-        @media only screen and (max-width: $responsive-width) {
-            @content;
-        }
-    }
-}
+        @media (max-width: $md) {
+           @content;
+        }   
 
-// paddings
-@mixin padding($values...) { 
-    @each $value in $values {
-        padding: #{$value};
-    }
-}
-
-// margins
-@mixin margin($values...) { 
-    @each $value in $values {
-        margin: #{$value};
+    /* 
+     * Specifics to use on Tablets
+     * Orientation: Landscape and Portrait
+     * Portrait: the height is greater than or equal to the width.
+     * landscape: the width is greater than the height.
+     *
+     * uses:
+     * @include media-query(tablet, portrait)     
+     * @include media-query(tablet, responsive)
+     */
+    } @else if $media == tablet {         
+        @if $orientation == landscape {
+            @media (min-width: $sm) and (max-width: $md) and (orientation: landscape) {
+                @content;
+            }
+        } @else if $orientation == portrait {
+            @media (min-width: $sm) and (max-width: $md) and (orientation: portrait) {
+                @content;
+            }
+        } @else {
+            @media (min-width: $sm) and (max-width: $md) {
+                @content;
+            }
+        }   
     }
 }

@@ -7,7 +7,7 @@ $(document).ready(function(){
     
     // operations to open menu
     $("#iconOpen").click(function() {
-        $("#sideNav").css('width', "+=250");                                   
+        $("#sideNav").css('width', "+=275");                                   
         $("body").css('background-color', "rgba(0,0,0,0.4)");
         $("#responsiveTopMenu").css('display', 'none');
     });      
@@ -20,7 +20,6 @@ $(document).ready(function(){
         $("body").css('background-color', "rgb(255,255,255, .4)");
         $("#iconOpen").css('display', 'initial');
         $("#responsiveTopMenu").css('display', 'initial'); // hide submenu on click
-
         
     });            
 
@@ -34,17 +33,17 @@ $(document).ready(function(){
 
     // Clicking away from dropdown will remove the dropdown class
     $('html').click(function() {
-        $('.nav-dropdown').hide();        
-    });
+        $('.nav-dropdown').hide();                
+    });   
     
     // Toggle open and close nav styles on click
-    $('#nav-toggle').click(function() {
+    /*$('#nav-toggle').click(function() {
         $('nav ul').slideToggle();
     });
     
     // Hamburger to X toggle
     $('#nav-toggle').on('click', function() {
         this.classList.toggle('active');
-    });
+    });*/
     
 });
