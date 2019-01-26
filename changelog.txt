@@ -1,5 +1,10 @@
 # Responsive Side Menuv
 
+Version 1.2
+-----------------
+added search input
+responsive design on tablets with orientation portrait
+
 Version 1.1
 -----------------
 added new social menu
