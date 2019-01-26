@@ -23,5 +23,6 @@ All notable changes to this project will be documented in this file.
 - Desktop and Responsive Menu
 - Multilevel dropdown Menu
 
-#Author
-* [Texto del enlace aquí](https://www.artegrafico.net "autor")
+# Author Info
+- [Web:](https://www.artegrafico.net "José Luis Rojo")
+- [Email:](jose@artegrafico.net "jose@artegrafico.net")
