@@ -24,5 +24,5 @@ All notable changes to this project will be documented in this file.
 - Multilevel dropdown Menu
 
 # Author Info
-- [Web:](https://www.artegrafico.net "José Luis Rojo")
-- [Email:](jose@artegrafico.net "jose@artegrafico.net")
+- [Web](https://www.artegrafico.net "José Luis Rojo")
+- [Email](mailto:jose@artegrafico.net "jose@artegrafico.net")
