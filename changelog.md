@@ -25,4 +25,4 @@ All notable changes to this project will be documented in this file.
 
 #Author
 * [] (https://www.artegrafico.net, 'José Luis Rojo Sánchez')
-* [Texto del enlace aquí](URL "https://www.artegrafico.net")
+* [Texto del enlace aquí]('https://www.artegrafico.net' "autor")
