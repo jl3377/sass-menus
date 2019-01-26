@@ -26,6 +26,5 @@ All notable changes to this project will be documented in this file.
 - Desktop and Responsive Menu
 - Multilevel dropdown Menu
 
-```[php]
-<?php echo phpinfo(); 
-```
+#Author: 
+[author](https://www.artegrafico.net "José Luis Rojo Sánchez")
