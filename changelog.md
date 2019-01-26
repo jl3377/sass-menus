@@ -26,3 +26,5 @@ All notable changes to this project will be documented in this file.
 # Author Info
 - [Web](https://www.artegrafico.net "José Luis Rojo")
 - [Email](mailto:jose@artegrafico.net "jose@artegrafico.net")
+
+![Sass Project](https://ahishahar.github.io/Portfolio/assets/icons/sass.png "sass image")
