@@ -24,5 +24,4 @@ All notable changes to this project will be documented in this file.
 - Multilevel dropdown Menu
 
 #Author
-* [] (https://www.artegrafico.net, 'José Luis Rojo Sánchez')
-* [Texto del enlace aquí]('https://www.artegrafico.net' "autor")
+* [Texto del enlace aquí](https://www.artegrafico.net "autor")
