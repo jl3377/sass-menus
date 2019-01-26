@@ -1,4 +1,4 @@
-# Responsive Side Menuv
+# Responsive Side Menu
 
 Version 1.2
 -----------------
