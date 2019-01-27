@@ -7,5 +7,5 @@
 * Responsive Navigation Side Menu 
 
 # Responsive
-![Responsive](https://github.com/jl3377/sass-menus/assets/img/responsive.png "responsive menu")
+![Responsive](https://github.com/jl3377/sass-menus/blob/master/assets/img/responsive.png "responsive menu")
    
