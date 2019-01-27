@@ -1,5 +1,5 @@
 # Responsive Side Menu
-## Made with Sass
+Made with Html, Css+Sass and jQuery
 
 * [Web](https://www.artegrafico.net "José Luis Rojo Sánchez")
 * [Email](mailto:jose@artegrafico.net "jose@artegrafico.net")
