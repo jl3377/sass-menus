@@ -4,6 +4,8 @@
 * [Email](mailto:jose@artegrafico.net "jose@artegrafico.net")
 
 # DEVELOPMENT
-* Responsive Navigation Top Menu
 * Responsive Navigation Side Menu 
+
+# Responsive
+![Responsive](https://github.com/jl3377/sass-menus/assets/img/responsive.png "responsive menu")
    
