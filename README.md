@@ -1,6 +1,7 @@
-# SASS MENUS
+# Responsive Side Menu
+## Made with Sass
 
-* [Web](https://www.artegrafico.net "José Luis Rojo")
+* [Web](https://www.artegrafico.net "José Luis Rojo Sánchez")
 * [Email](mailto:jose@artegrafico.net "jose@artegrafico.net")
 
 # DEVELOPMENT
