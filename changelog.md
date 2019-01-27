@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased 
 ### Changed 
-- Update Side Menu icons
+- Update Side Menu icons.
 
 ## [1.0.2] - 2019-01-25
 ### Added
