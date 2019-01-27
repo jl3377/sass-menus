@@ -1,15 +1,9 @@
-# SASS PROJECTS
-Author: <strong>José Luis Rojo Sánchez</strong><br />
-Description:<strong> Sass Development Resources</strong>
+# SASS MENUS
+
+[Web](https://www.artegrafico.net "José Luis Rojo")
+[Email](mailto:jose@artegrafico.net "jose@artegrafico.net")
 
 # DEVELOPMENT
-<ul>
-    <li>
-    <strong>Responsive Navigation Top Menu</strong><br />
-    Version 1.0
-    </li>
-    <li>
-    <strong>Responsive Navigation Side Menu </strong><br />
-    Version 1.0
-    </li>
-</ul>    
+* Responsive Navigation Top Menu
+* Responsive Navigation Side Menu 
+   
