@@ -17,4 +17,6 @@ nbdist/
 
 # history
 .history/*
-.htaccess
+
+# apache
+.htaccess 
