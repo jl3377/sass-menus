@@ -1,3 +1,15 @@
 #content {
     margin: 25px;
+
+    //color: set-color(yellow);
+
+    @include media-query2(md) {
+        font-size: 14px;
+        color: rgb(197, 218, 8);
+
+        
+
+
+
+    }
 }
