@@ -1,6 +1,3 @@
-/*
-* breakpoints
-*/
 /*------------------------------------------------*\
  # Bootstrap Reboot v4.1.3
 \*------------------------------------------------*/
@@ -2894,20 +2891,6 @@ h6, .h6 {
   background: #282829;
   z-index: 1;
   height: 75px;
-  /*
-     * Mobiles 
-     * Size: until 576px
-     */
-  /* 
-     * Specifics to use on Tablets
-     * Orientation: Landscape and Portrait
-     * Portrait: the height is greater than or equal to the width.
-     * landscape: the width is greater than the height.
-     *
-     * How to use:
-     * @include media-query(tablet, portrait)     
-     * @include media-query(tablet, responsive)
-     */
 }
 
 @media (max-width: 992px) {
@@ -2929,20 +2912,6 @@ h6, .h6 {
 
 .sideNav #iconClose {
   display: none;
-  /*
-     * Mobiles 
-     * Size: until 576px
-     */
-  /* 
-     * Specifics to use on Tablets
-     * Orientation: Landscape and Portrait
-     * Portrait: the height is greater than or equal to the width.
-     * landscape: the width is greater than the height.
-     *
-     * How to use:
-     * @include media-query(tablet, portrait)     
-     * @include media-query(tablet, responsive)
-     */
 }
 
 @media (max-width: 992px) {
@@ -2962,20 +2931,6 @@ h6, .h6 {
   float: left;
   padding: 15px 10px 0 10px;
   margin-right: 25px;
-  /*
-     * Mobiles 
-     * Size: until 576px
-     */
-  /* 
-     * Specifics to use on Tablets
-     * Orientation: Landscape and Portrait
-     * Portrait: the height is greater than or equal to the width.
-     * landscape: the width is greater than the height.
-     *
-     * How to use:
-     * @include media-query(tablet, portrait)     
-     * @include media-query(tablet, responsive)
-     */
 }
 
 .sideNav #headerLogo img {
@@ -2992,20 +2947,6 @@ h6, .h6 {
 
 .sideNav #search {
   display: none;
-  /*
-     * Mobiles 
-     * Size: until 576px
-     */
-  /* 
-     * Specifics to use on Tablets
-     * Orientation: Landscape and Portrait
-     * Portrait: the height is greater than or equal to the width.
-     * landscape: the width is greater than the height.
-     *
-     * How to use:
-     * @include media-query(tablet, portrait)     
-     * @include media-query(tablet, responsive)
-     */
 }
 
 @media (max-width: 992px) {
@@ -3025,20 +2966,6 @@ h6, .h6 {
   list-style: none;
   height: auto;
   border-top: solid #494b4b 1px;
-  /*
-     * Mobiles 
-     * Size: until 576px
-     */
-  /* 
-     * Specifics to use on Tablets
-     * Orientation: Landscape and Portrait
-     * Portrait: the height is greater than or equal to the width.
-     * landscape: the width is greater than the height.
-     *
-     * How to use:
-     * @include media-query(tablet, portrait)     
-     * @include media-query(tablet, responsive)
-     */
 }
 
 @media (max-width: 992px) {
@@ -3056,20 +2983,6 @@ h6, .h6 {
   font-size: 1.2rem;
   position: relative;
   list-style: none;
-  /*
-     * Mobiles 
-     * Size: until 576px
-     */
-  /* 
-     * Specifics to use on Tablets
-     * Orientation: Landscape and Portrait
-     * Portrait: the height is greater than or equal to the width.
-     * landscape: the width is greater than the height.
-     *
-     * How to use:
-     * @include media-query(tablet, portrait)     
-     * @include media-query(tablet, responsive)
-     */
 }
 
 @media (max-width: 992px) {
@@ -3108,20 +3021,6 @@ h6, .h6 {
 .sideNav ul li:hover {
   color: black;
   background: #525252;
-  /*
-     * Mobiles 
-     * Size: until 576px
-     */
-  /* 
-     * Specifics to use on Tablets
-     * Orientation: Landscape and Portrait
-     * Portrait: the height is greater than or equal to the width.
-     * landscape: the width is greater than the height.
-     *
-     * How to use:
-     * @include media-query(tablet, portrait)     
-     * @include media-query(tablet, responsive)
-     */
 }
 
 @media (max-width: 992px) {
@@ -3132,20 +3031,6 @@ h6, .h6 {
 
 .sideNav ul li:hover > ul {
   display: block;
-  /*
-     * Mobiles 
-     * Size: until 576px
-     */
-  /* 
-     * Specifics to use on Tablets
-     * Orientation: Landscape and Portrait
-     * Portrait: the height is greater than or equal to the width.
-     * landscape: the width is greater than the height.
-     *
-     * How to use:
-     * @include media-query(tablet, portrait)     
-     * @include media-query(tablet, responsive)
-     */
 }
 
 @media (max-width: 992px) {
@@ -3160,20 +3045,6 @@ h6, .h6 {
   top: 100%;
   left: 0;
   padding: 0;
-  /*
-     * Mobiles 
-     * Size: until 576px
-     */
-  /* 
-     * Specifics to use on Tablets
-     * Orientation: Landscape and Portrait
-     * Portrait: the height is greater than or equal to the width.
-     * landscape: the width is greater than the height.
-     *
-     * How to use:
-     * @include media-query(tablet, portrait)     
-     * @include media-query(tablet, responsive)
-     */
 }
 
 @media (max-width: 992px) {
@@ -3181,23 +3052,6 @@ h6, .h6 {
     border: 0;
     margin: 0;
   }
-}
-
-.sideNav ul ul.nav-dropdown {
-  /*
-     * Mobiles 
-     * Size: until 576px
-     */
-  /* 
-     * Specifics to use on Tablets
-     * Orientation: Landscape and Portrait
-     * Portrait: the height is greater than or equal to the width.
-     * landscape: the width is greater than the height.
-     *
-     * How to use:
-     * @include media-query(tablet, portrait)     
-     * @include media-query(tablet, responsive)
-     */
 }
 
 @media (max-width: 992px) {
@@ -3213,20 +3067,6 @@ h6, .h6 {
   background: #282829;
   text-align: left;
   cursor: pointer;
-  /*
-     * Mobiles 
-     * Size: until 576px
-     */
-  /* 
-     * Specifics to use on Tablets
-     * Orientation: Landscape and Portrait
-     * Portrait: the height is greater than or equal to the width.
-     * landscape: the width is greater than the height.
-     *
-     * How to use:
-     * @include media-query(tablet, portrait)     
-     * @include media-query(tablet, responsive)
-     */
 }
 
 @media (max-width: 992px) {
@@ -3239,20 +3079,6 @@ h6, .h6 {
 .sideNav ul ul li a {
   color: #b5b5b5;
   line-height: 120%;
-  /*
-     * Mobiles 
-     * Size: until 576px
-     */
-  /* 
-     * Specifics to use on Tablets
-     * Orientation: Landscape and Portrait
-     * Portrait: the height is greater than or equal to the width.
-     * landscape: the width is greater than the height.
-     *
-     * How to use:
-     * @include media-query(tablet, portrait)     
-     * @include media-query(tablet, responsive)
-     */
 }
 
 @media (max-width: 992px) {
@@ -3272,20 +3098,6 @@ h6, .h6 {
 
 .sideNav #social {
   float: right;
-  /*
-     * Mobiles 
-     * Size: until 576px
-     */
-  /* 
-     * Specifics to use on Tablets
-     * Orientation: Landscape and Portrait
-     * Portrait: the height is greater than or equal to the width.
-     * landscape: the width is greater than the height.
-     *
-     * How to use:
-     * @include media-query(tablet, portrait)     
-     * @include media-query(tablet, responsive)
-     */
 }
 
 @media (max-width: 992px) {
@@ -3295,23 +3107,6 @@ h6, .h6 {
     width: 100%;
     margin-top: 0;
   }
-}
-
-.sideNav #social li.social {
-  /*
-     * Mobiles 
-     * Size: until 576px
-     */
-  /* 
-     * Specifics to use on Tablets
-     * Orientation: Landscape and Portrait
-     * Portrait: the height is greater than or equal to the width.
-     * landscape: the width is greater than the height.
-     *
-     * How to use:
-     * @include media-query(tablet, portrait)     
-     * @include media-query(tablet, responsive)
-     */
 }
 
 @media (max-width: 992px) {
@@ -3339,38 +3134,10 @@ h6, .h6 {
 
 #main #responsiveTopMenu {
   display: none;
-  /*
-     * Mobiles 
-     * Size: until 576px
-     */
-  /* 
-     * Specifics to use on Tablets
-     * Orientation: Landscape and Portrait
-     * Portrait: the height is greater than or equal to the width.
-     * landscape: the width is greater than the height.
-     *
-     * How to use:
-     * @include media-query(tablet, portrait)     
-     * @include media-query(tablet, responsive)
-     */
 }
 
 #main #responsiveTopMenu #iconOpen {
   display: none;
-  /*
-     * Mobiles 
-     * Size: until 576px
-     */
-  /* 
-     * Specifics to use on Tablets
-     * Orientation: Landscape and Portrait
-     * Portrait: the height is greater than or equal to the width.
-     * landscape: the width is greater than the height.
-     *
-     * How to use:
-     * @include media-query(tablet, portrait)     
-     * @include media-query(tablet, responsive)
-     */
 }
 
 @media (max-width: 992px) {
@@ -3427,12 +3194,12 @@ h6, .h6 {
 
 #content {
   margin: 25px;
+  color: #ae131d;
 }
 
 @media (max-width: 992px) {
   #content {
     font-size: 14px;
-    color: #c5da08;
   }
 }
 
@@ -3447,20 +3214,6 @@ h6, .h6 {
   background: #000;
   padding: 25px;
   color: #f0f0f0;
-  /*
-     * Mobiles 
-     * Size: until 576px
-     */
-  /* 
-     * Specifics to use on Tablets
-     * Orientation: Landscape and Portrait
-     * Portrait: the height is greater than or equal to the width.
-     * landscape: the width is greater than the height.
-     *
-     * How to use:
-     * @include media-query(tablet, portrait)     
-     * @include media-query(tablet, responsive)
-     */
 }
 
 @media (max-width: 992px) {

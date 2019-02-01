@@ -13,7 +13,7 @@
     height: 75px;
 
     // Side Nav menu in responsive mode
-    @include media-query(responsive){
+    @include media-query(md){
         overflow-x: hidden;
         height: 100%;
         width: 0;
@@ -32,7 +32,7 @@
         display: none;
 
         // Responsive mode
-        @include media-query(responsive) {
+        @include media-query(md) {
             display: initial;
             position: absolute;
             top: 15px;
@@ -53,7 +53,7 @@
         img {
             max-height: 50px;
         }
-        @include media-query(responsive){
+        @include media-query(md){
             float: left;
             position: absolute;
             top: 0;
@@ -64,7 +64,7 @@
     #search {
 
         display: none; // hide on desktop    
-        @include media-query(responsive) {
+        @include media-query(md) {
 
             display: block;                    
             margin: 30px 0 0 10px;
@@ -85,7 +85,7 @@
         height: auto;        
         border-top: solid hsl(180, 1%, 29%) 1px;        
 
-        @include media-query(responsive) {
+        @include media-query(md) {
             margin-top: 25px;
             padding-top: 15px;
         }
@@ -100,7 +100,7 @@
             position: relative;
             list-style: none;
 
-            @include media-query(responsive) {
+            @include media-query(md) {
                 padding: 8px 8px 8px 15px;
                 text-decoration:none;
                 font-size: 1rem;
@@ -138,7 +138,7 @@
                 color: hsl(0, 0%, 0%);
                 background: hsl(0, 0%, 32%);     
                 
-                @include media-query(responsive){
+                @include media-query(md){
                     background: transparent;
                 }
                 
@@ -146,7 +146,7 @@
                 > ul {
                     display: block;
                     
-                    @include media-query(responsive) {
+                    @include media-query(md) {
                         // hide dropdown only responsive
                         display:none;
                     }    
@@ -166,14 +166,14 @@
             left:0;            
             padding:0;
 
-            @include media-query(responsive){
+            @include media-query(md){
                 border: 0;
                 margin: 0;
             }         
             
              // dropdown navigation menu static at responsive mode
             &.nav-dropdown {                
-                @include media-query(responsive){
+                @include media-query(md){
                     position: static;
                 }
             }
@@ -186,7 +186,7 @@
                 text-align: left;
                 cursor: pointer;
 
-                @include media-query(responsive) {
+                @include media-query(md) {
                     background: transparent;
                     padding: 15px 0 0;
                 }
@@ -195,7 +195,7 @@
                     color: hsl(0, 0%, 71%);    
                     line-height: 120%;                                        
 
-                    @include media-query(responsive) {
+                    @include media-query(md) {
                         color: hsl(219, 64%, 71%);
                     }
                 }
@@ -216,7 +216,7 @@
     #social {
         float: right;
 
-        @include media-query(responsive) {
+        @include media-query(md) {
             position: static;
             padding-top: 15px;
             width: 100%;
@@ -226,7 +226,7 @@
         li {
         
             &.social {
-                @include media-query(responsive){
+                @include media-query(md){
                     display: inline;
                     width: auto;
                     text-align: center;
@@ -259,13 +259,13 @@
             display: none;
 
             // Show only in responsive mode    
-            @include media-query(responsive) {
+            @include media-query(md) {
                 display: initial;
                 color: hsl(0, 0%, 71%);
             }
         }
 
-        @include media-query(responsive){
+        @include media-query(md){
 
             display: initial;
             position: fixed;

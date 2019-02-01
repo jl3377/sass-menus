@@ -10,7 +10,7 @@
     padding:25px;
     color: rgb(240, 240, 240);
 
-    @include media-query(responsive){
+    @include media-query(md){
         position: relative; 
     }
 }

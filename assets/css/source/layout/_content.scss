@@ -1,11 +1,12 @@
 #content {
     margin: 25px;
+    color: saturate($base-color, 1% );
 
     //color: set-color(yellow);
 
-    @include media-query2(md) {
+    @include media-query(md) {
         font-size: 14px;
-        color: rgb(197, 218, 8);
+        //color: rgb(197, 218, 8);
 
         
 
