@@ -3,7 +3,7 @@
 \*------------------------------------------------*/
 #header {
     padding: 100px 25px 25px;
-    background: #eee;    
+    background: lighten($base-color, 90%);    
     .title { 
         color: rgb(0, 0, 0);
     }
