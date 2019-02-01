@@ -20,3 +20,6 @@ nbdist/
 
 # apache
 .htaccess 
+
+# old and deprecated files
+*.old
