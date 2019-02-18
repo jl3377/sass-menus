@@ -1,4 +1,4 @@
-# SCSS Styles utilities, made with Sas 
+# SCSS Styles utilities, made with Sass
 Made with Html, Css+Sass and jQuery
 
 * [Web](https://www.artegrafico.net "José Luis Rojo Sánchez")
