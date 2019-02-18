@@ -1,9 +1,14 @@
-# Responsive Side Menu
+# SCSS Styles made with Sass 
+### Responsive Side Menu
 All notable changes to this project will be documented in this file.
 
 ## Unreleased 
 ### Changed 
 - Update Side Menu icons.
+
+## [1.1] - 2019-02-18
+### Added 
+- added component -> page loader component (image and full css loader)
 
 ## [1.0.2] - 2019-01-25
 ### Added
@@ -20,7 +25,7 @@ All notable changes to this project will be documented in this file.
 
 ## [1.0.2] - 2019-01-19
 ### Added
-- Desktop and Responsive Menu
+- Desktop and Responsive Side Bar Menu
 - Multilevel dropdown Menu
 
 # Author Info
