@@ -6,18 +6,19 @@
 @import 'abstracts/media';
 
 // vendors 
-@import 'vendor/bootstrap/reboot';
-@import 'vendor/bootstrap/grid';
+@import 'vendor/bootstrap/reboot'; // reboot bootstrap 4.1
+@import 'vendor/bootstrap/grid'; // grid bootstrap 4.1
 
 // Base stuff
 @import 'base/fonts';
 
 // Components
-@import 'components/headings';
+@import 'components/headings'; // header sizes
+@import 'components/loader'; // page loader
 
 // layout
 //@import 'layout/nav';
-@import 'layout/sideNav';
+@import 'layout/sideNav'; // responsive side bar navigation
 @import 'layout/header'; 
 @import 'layout/content';
 @import 'layout/footer';

@@ -1,0 +1,49 @@
+// Page laoder full css and with image 
+// v0.1, 2019
+.outer-loader {
+    width: auto;
+    height: 100vh;
+    border: dotted hsl(0, 0%, 67%) 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+    background:#eee;
+
+    // page loader with image
+    .inner-loader-img {
+        text-align: center;
+        background: url('https://loading.io/spinners/comets/lg.comet-spinner.gif') no-repeat center;
+        background-size: contain;
+        height: 40%;
+        width: 40%;    
+    }
+    // page loader full css
+    .inner-loader-css {
+        border: 16px solid hsl(214, 100%, 77%); 
+        border-top: 16px solid hsl(0, 0%, 19%); 
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        animation: spin 1.5s linear infinite;
+    }
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        25% { border: 16px solid hsl(114, 45%, 46%);  }
+        100% { transform: rotate(360deg); }
+    } 
+
+    /*p {
+        position: relative;
+        top: 35%;
+        transform: translateY(-50%);
+        padding: 35px;
+        font-weight: bold;
+        font-size: 0.9rem;
+        color: hsl(0, 64%, 34%);
+    }*/
+}    
+
+pre { 
+    display: none!important;
+}

@@ -2879,6 +2879,99 @@ h6, .h6 {
   font-size: 1rem;
 }
 
+.outer-loader {
+  width: auto;
+  height: 100vh;
+  border: dotted #ababab 2px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
+  background: #eee;
+  /*p {
+        position: relative;
+        top: 35%;
+        transform: translateY(-50%);
+        padding: 35px;
+        font-weight: bold;
+        font-size: 0.9rem;
+        color: hsl(0, 64%, 34%);
+    }*/
+}
+
+.outer-loader .inner-loader-img {
+  text-align: center;
+  background: url("https://loading.io/spinners/comets/lg.comet-spinner.gif") no-repeat center;
+  -webkit-background-size: contain;
+          background-size: contain;
+  height: 40%;
+  width: 40%;
+}
+
+.outer-loader .inner-loader-css {
+  border: 16px solid #8abdff;
+  border-top: 16px solid #303030;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: spin 1.5s linear infinite;
+       -o-animation: spin 1.5s linear infinite;
+          animation: spin 1.5s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  25% {
+    border: 16px solid #4baa41;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes spin {
+  0% {
+    -o-transform: rotate(0deg);
+       transform: rotate(0deg);
+  }
+  25% {
+    border: 16px solid #4baa41;
+  }
+  100% {
+    -o-transform: rotate(360deg);
+       transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+         -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  25% {
+    border: 16px solid #4baa41;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
 /*------------------------------------------------*\
  # RESPOSNIVE MENU
  # Desktop Menu Horizontal

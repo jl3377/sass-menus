@@ -1,0 +1,49 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Loader CSS</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>           
+    <script type="text/javascript" src="assets/js/loader.js"></script>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="assets\css\style.css" />     
+
+   
+</head>
+<body>
+
+    <div class="outer-loader">
+        <div class="inner-loader-css">   
+        </div>
+    </div>   
+
+    <pre id="info" style="font-size:0.7rem">
+        <strong>animation</strong>
+        <em>Nos Permite animar transiciones entre un estilo css y otro<br />
+        Para crear estas sencuencias de animación usaremos @keyframes tambien llamados fotogramas donde podremos configurar el ritmo, duración y otros detalles de la animación.
+        Cada fotograma describe un momento de la secuencia de la animación.
+        Los fotogramas usan porcentajes para indicar en que momento de la secuencia tiene lugar, siendo sus valores entre 0 y 100.
+        Tambien podremos usar eventos de animación con los alias from ... to    </em>
+        <hr />
+        animation: spin 1.5s linear infinite;
+        animation-name: spin // indica el nombre de la animacion en la regla @keyframes encargada de los fotogramas de la animación           
+        animation-duration: 1.5s // el tiempo que se consume en completar un ciclo
+        animation-timing-function: linear // ritmo de la animación a la misma velocidad
+                                    ease / ease-in / ease-out / ease-in-out / cubic-bezier(n,n,n,n)
+        animation-iteration-count: infinite // cantidad de veces que se repite
+        --- otros atributos 
+        animation-direction: normal // indica si la animación debe retroceder hasta el fotograma de inicio.
+                            alternate una vez llegado al final retrocede hasta el principio.
+                            reverse animación en dirección contraria
+                            alternate-reverse hacia atras y luego hacia adelante
+        animation-delay: 1.5s // tiempo de espera hasta iniciar el comienzo de la animación
+        animation-play-state: // permite pausar o reanudar la animación
+        animation-fill-mode: none / fordwards / backwards / both
+    
+    </pre>
+</body>
+</html>
