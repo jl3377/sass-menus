@@ -2882,7 +2882,6 @@ h6, .h6 {
 .outer-loader {
   width: auto;
   height: 100vh;
-  border: dotted #ababab 2px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2895,8 +2894,6 @@ h6, .h6 {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 10px;
-  background: #eee;
   /*p {
         position: relative;
         top: 35%;
@@ -2918,8 +2915,8 @@ h6, .h6 {
 }
 
 .outer-loader .inner-loader-css {
-  border: 16px solid #8abdff;
-  border-top: 16px solid #303030;
+  border: 16px solid #0d0d0d;
+  border-top: 16px solid #6e6e6e;
   border-radius: 50%;
   width: 100px;
   height: 100px;
@@ -2933,9 +2930,6 @@ h6, .h6 {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
   }
-  25% {
-    border: 16px solid #4baa41;
-  }
   100% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
@@ -2946,9 +2940,6 @@ h6, .h6 {
   0% {
     -o-transform: rotate(0deg);
        transform: rotate(0deg);
-  }
-  25% {
-    border: 16px solid #4baa41;
   }
   100% {
     -o-transform: rotate(360deg);
@@ -2962,14 +2953,15 @@ h6, .h6 {
          -o-transform: rotate(0deg);
             transform: rotate(0deg);
   }
-  25% {
-    border: 16px solid #4baa41;
-  }
   100% {
     -webkit-transform: rotate(360deg);
          -o-transform: rotate(360deg);
             transform: rotate(360deg);
   }
+}
+
+pre {
+  display: none !important;
 }
 
 /*------------------------------------------------*\

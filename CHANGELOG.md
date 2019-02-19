@@ -1,4 +1,4 @@
-# SCSS Styles made with Sass 
+# SCSS Styles utilities, made with Sas 
 ### Responsive Side Menu
 All notable changes to this project will be documented in this file.
 
