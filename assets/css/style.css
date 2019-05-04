@@ -3232,6 +3232,10 @@ pre {
   }
 }
 
+#main #responsiveTopMenu #sharebuttons {
+  display: none;
+}
+
 @media (max-width: 992px) {
   #main #responsiveTopMenu {
     display: initial;
@@ -3262,6 +3266,9 @@ pre {
   }
   #main #responsiveTopMenu ul #logo img {
     height: 50px;
+  }
+  #main #responsiveTopMenu ul #sharebuttons {
+    display: initial;
   }
 }
 

@@ -35,15 +35,56 @@ $(document).ready(function(){
     $('html').click(function() {
         $('.nav-dropdown').hide();                
     });   
-    
-    // Toggle open and close nav styles on click
-    /*$('#nav-toggle').click(function() {
-        $('nav ul').slideToggle();
-    });
-    
-    // Hamburger to X toggle
-    $('#nav-toggle').on('click', function() {
-        this.classList.toggle('active');
-    });*/
+
+    // shrink navbar on scroll
+    $( window ).scroll(function() {
+        // user scrolling > 100px
+        if ($(window).scrollTop() > 100) {               
+            $("#responsiveTopMenu").css( {
+                "height": "50px"
+            });   
+            $("#responsiveTopMenu ul #iconOpen").css ({ 
+                "top": "6px"
+            });           
+            $("#responsiveTopMenu ul li#logo").css ({
+                "padding-top": "10px",
+                "margin-right": "25px"
+            });
+            $("#responsiveTopMenu ul li#logo img").css ({
+                "padding": "0px",                    
+                "margin": "-10px 0",
+                "height": "40px",
+                "transition": "all 1.5s"
+            });      
+            // move social icons on scroll down menu to top menu 
+            $("#social li.social").appendTo('#responsiveTopMenu ul'); 
+            $("#responsiveTopMenu ul li.social").css ({
+                "padding": "15px 0px 0px 15px"
+            });
+        }
+        // restore default size
+        if ($(window).scrollTop() < 100) {
+            $("#responsiveTopMenu").css( {
+                "height": "80px",
+                "transition": "all 1.5s"
+            });  
+            $("#responsiveTopMenu ul #iconOpen").css ({ 
+                "top": "13px",
+                "right": "15px",
+                "transition": "all 1.5s"
+            });    
+            $("#responsiveTopMenu ul li#logo").css ({
+                "padding-top": "15px"
+            });
+            $("#responsiveTopMenu ul li#logo img").css ({
+                "padding": "0px",                    
+                "margin": "0",
+                "height": "50px",
+                "transition": "all 1.5s"
+            });  
+            // move social icons to side bar
+            $("li.social").appendTo('#social');            
+        }
+    });    
     
 });
