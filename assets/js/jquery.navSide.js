@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
     // reload on resize page
-    /*$(window).resize(function() { 
+    $(window).resize(function() { 
         location.reload(); 
-    });*/
+    });
     
     // operations to open menu
     $("#iconOpen").click(function() {
